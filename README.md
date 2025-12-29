@@ -1,73 +1,66 @@
-# Welcome to your Lovable project
+# Chitta Cherita – Handcrafted Creations Website
 
-## Project info
+Chitta Cherita is a premium, craft-focused website built to showcase and sell handcrafted products through a **WhatsApp-first ordering model**.  
+This project intentionally avoids payment gateways and traditional checkout flows, prioritizing **personalized customer interaction**, custom orders, and brand storytelling.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+## 🔹 Project Objective
 
-There are several ways of editing your application.
+Build a **single high-impact website** that works as:
+- A brand landing page
+- A product catalog
+- A WhatsApp-based order funnel
 
-**Use Lovable**
+Every “Buy” or “Order” action redirects users to WhatsApp with a **pre-filled message containing product details and page URL**.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🔹 Product Categories
 
-**Use your preferred IDE**
+- **Wall Hangings**
+  - Macramé
+  - Wooden / Lippan art
+  - Hand-painted wall art
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **Kids Wear**
+  - Ready-made dresses
+  - Customised outfits (name, color, size, theme)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- **Customised Dresses (Girls / Women)**
+  - Occasion-based
+  - Made-to-order
 
-Follow these steps:
+- **Gifting Articles**
+  - Handcrafted gift items for special occasions
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🔹 Key Features
 
-# Step 3: Install the necessary dependencies.
-npm i
+- WhatsApp-only order flow (no payment gateway)
+- Premium, craft-oriented UI
+- Emotion-driven product presentation
+- Mobile-first responsive design
+- Easy scalability for new categories and products
+- SEO-friendly structure
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-**Edit a file directly in GitHub**
+## 🔹 Tech Stack
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- **Frontend:** React + Vite
+- **Styling:** Tailwind CSS
+- **Animations:** Framer Motion
+- **Routing:** Wouter
+- **Data Source:** Google Sheets / API (no backend server)
+- **Deployment:** GitHub + Static hosting (Vercel / Netlify / similar)
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🔹 Getting Started (Local Setup)
 
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+### 1. Clone the repository
+```bash
+git clone https://github.com/revanasiddeswara/chittcherita.git
+cd chittcherita
