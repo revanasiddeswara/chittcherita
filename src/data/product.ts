@@ -12,4 +12,4 @@ export interface Product {
   slug: string;
 }
 
-export const WHATSAPP_NUMBER = '+918951682834';
+export const WHATSAPP_NUMBER = '+919019889837';

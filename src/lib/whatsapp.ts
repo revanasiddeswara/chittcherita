@@ -1,13 +1,12 @@
 import { Product } from '@/data/product';
 import { WHATSAPP_NUMBER } from '@/data/product';
 
+const SITE_URL = 'https://chittcherit.netlify.app';
+
 export const generateWhatsAppLinkWithImage = (
   product: Product
 ): string => {
-  const baseUrl =
-    typeof window !== 'undefined' ? window.location.origin : '';
-
-  const productUrl = `${baseUrl}/product/${product.slug}`;
+  const productUrl = `${SITE_URL}/product/${product.slug}`;
   const imageUrl = product.images[0];
 
   const message = `Hello Chitta Cherita ✨
