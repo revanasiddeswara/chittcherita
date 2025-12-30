@@ -27,7 +27,7 @@ const Footer = () => {
                 <MessageCircle size={20} />
               </a>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/chittacherita?igsh=emZxZG9ldjY1c3B6"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-colors duration-300"

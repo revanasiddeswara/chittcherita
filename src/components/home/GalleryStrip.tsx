@@ -55,7 +55,7 @@ const GalleryStrip = () => {
       {/* Instagram CTA */}
       <div className="container mx-auto px-6 mt-12 text-center">
         <a
-          href="https://instagram.com"
+          href="https://www.instagram.com/chittacherita?igsh=emZxZG9ldjY1c3B6"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 font-body text-muted-foreground hover:text-primary transition-colors duration-300"
