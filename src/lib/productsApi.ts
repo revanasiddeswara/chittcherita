@@ -1,6 +1,6 @@
 import { Product } from '@/data/product';
 
-const API_URL = 'https://script.google.com/macros/s/AKfycbzmwsCkguDsHyCg8p6suyqCkie1AwxrXhbtFQQ5h3ML-6Nyjc7LNUabTL5cfE2AvZt8fg/exec';
+const API_URL = 'https://script.google.com/macros/s/AKfycbyk5BJh5o1abPpsM-35JJeitBBAstOmSrMSoyDoJ3pZ3PY2MVP0qn6wEVx-n2ofjVDZdA/exec';
 
 export async function fetchProducts(): Promise<Product[]> {
   const res = await fetch(API_URL);
