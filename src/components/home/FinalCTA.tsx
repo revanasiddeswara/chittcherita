@@ -43,7 +43,7 @@ const FinalCTA = () => {
               rel="noopener noreferrer"
               className="text-primary hover:underline"
             >
-              +91 89516 82834
+              +91 90198 89837
             </a>
           </p>
         </div>
