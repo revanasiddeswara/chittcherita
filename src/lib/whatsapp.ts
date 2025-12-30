@@ -6,7 +6,9 @@ const SITE_URL = 'https://chittcherit.netlify.app';
 export const generateWhatsAppLinkWithImage = (
   product: Product
 ): string => {
-  const productUrl = `${SITE_URL}/product/${product.slug}`;
+  const productUrl = `${SITE_URL}/product/${encodeURIComponent(
+    product.slug
+  )}`;
   const imageUrl = product.images[0];
 
   const message = `Hello Chitta Cherita ✨
